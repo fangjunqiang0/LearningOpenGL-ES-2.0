@@ -17,6 +17,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    UIBarButtonItem *item = [UIBarButtonItem appearance];
+    [item setBackButtonTitlePositionAdjustment:UIOffsetMake(-300,0) forBarMetrics:UIBarMetricsDefault];
+    
+    UINavigationBar * navigationBar = [UINavigationBar appearance];
+    [navigationBar setTintColor:[UIColor blackColor]];
+    
     return YES;
 }
 
