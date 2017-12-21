@@ -12,6 +12,10 @@
 #import "Ch3_1_ViewController.h"
 #import "Ch3_2_ViewController.h"
 #import "Ch3_3_ViewController.h"
+#import "Ch3_4_ViewController.h"
+#import "Ch3_5_ViewController.h"
+#import "Ch3_6_ViewController.h"
+
 
 @interface RootTableViewController ()
 {
@@ -30,7 +34,10 @@
               @"2_2 GLKView是怎么工作的",
               @"3_1 纹理",
               @"3_2 GLKTextureLoader是怎样工作的",
-              @"3_3 纹理取样模式循环模式"];
+              @"3_3 纹理取样模式循环模式",
+              @"3_4 混合片元颜色",
+              @"3_5 多重纹理",
+              @"3_6 自定义纹理"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -87,6 +94,18 @@
             break;
         case 4: {
             bvc = (BaseViewController *)[[Ch3_3_ViewController alloc]initWithNibName:@"Ch3_3_ViewController" bundle:nil];
+        }
+            break;
+        case 5: {
+            bvc = (BaseViewController *)[[Ch3_4_ViewController alloc]initWithNibName:@"Ch3_4_ViewController" bundle:nil];
+        }
+            break;
+        case 6: {
+            bvc = (BaseViewController *)[[Ch3_5_ViewController alloc]initWithNibName:@"Ch3_5_ViewController" bundle:nil];
+        }
+            break;
+        case 7: {
+            bvc = (BaseViewController *)[[Ch3_6_ViewController alloc]initWithNibName:@"Ch3_6_ViewController" bundle:nil];
         }
             break;
         default:

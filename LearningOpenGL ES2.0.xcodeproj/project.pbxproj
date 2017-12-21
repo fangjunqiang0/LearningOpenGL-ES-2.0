@@ -16,7 +16,6 @@
 		6413E3371FE77D0100215F38 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6413E3361FE77D0100215F38 /* GLKit.framework */; };
 		6413E33A1FE7954600215F38 /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6413E3391FE7954600215F38 /* AGLKVertexAttribArrayBuffer.m */; };
 		6413E33D1FE7A48600215F38 /* Ch3_1_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6413E33C1FE7A48600215F38 /* Ch3_1_ViewController.m */; };
-		6413E33F1FE7B28E00215F38 /* leaves.png in Resources */ = {isa = PBXBuildFile; fileRef = 6413E33E1FE7B28E00215F38 /* leaves.png */; };
 		6413E3431FE7BA5100215F38 /* Ch3_2_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6413E3421FE7BA5100215F38 /* Ch3_2_ViewController.m */; };
 		6413E3451FE7BD2E00215F38 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6413E3441FE7BD2E00215F38 /* icon.png */; };
 		6413E3481FE7BFA100215F38 /* AGLKTextureInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6413E3471FE7BFA100215F38 /* AGLKTextureInfo.m */; };
@@ -25,6 +24,17 @@
 		644D232F1FE3D71900C53861 /* Ch2_2_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 644D232A1FE3D71900C53861 /* Ch2_2_ViewController.m */; };
 		644D23301FE3D71900C53861 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 644D232C1FE3D71900C53861 /* BaseViewController.m */; };
 		644D23331FE3D74A00C53861 /* AGLKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 644D23321FE3D74A00C53861 /* AGLKView.m */; };
+		646F905C1FEA45E50074B4DF /* Ch3_4_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 646F905A1FEA45E50074B4DF /* Ch3_4_ViewController.m */; };
+		646F905D1FEA45E50074B4DF /* Ch3_4_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 646F905B1FEA45E50074B4DF /* Ch3_4_ViewController.xib */; };
+		646F90681FEA46CA0074B4DF /* Ch3_5_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 646F90661FEA46CA0074B4DF /* Ch3_5_ViewController.m */; };
+		646F90691FEA46CA0074B4DF /* Ch3_5_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 646F90671FEA46CA0074B4DF /* Ch3_5_ViewController.xib */; };
+		646F906D1FEA46DB0074B4DF /* Ch3_6_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 646F906B1FEA46DB0074B4DF /* Ch3_6_ViewController.m */; };
+		646F906E1FEA46DB0074B4DF /* Ch3_6_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 646F906C1FEA46DB0074B4DF /* Ch3_6_ViewController.xib */; };
+		646F90711FEA50990074B4DF /* leaves.gif in Resources */ = {isa = PBXBuildFile; fileRef = 646F906F1FEA50990074B4DF /* leaves.gif */; };
+		646F90721FEA50990074B4DF /* beetle.png in Resources */ = {isa = PBXBuildFile; fileRef = 646F90701FEA50990074B4DF /* beetle.png */; };
+		646F90741FEA51450074B4DF /* leaves.png in Resources */ = {isa = PBXBuildFile; fileRef = 646F90731FEA51440074B4DF /* leaves.png */; };
+		646F90831FEA71100074B4DF /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 646F90821FEA71100074B4DF /* Shader.fsh */; };
+		646F90851FEA71340074B4DF /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 646F90841FEA71340074B4DF /* Shader.vsh */; };
 		6473B8E81FE28EDC0026D9DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6473B8E71FE28EDC0026D9DE /* AppDelegate.m */; };
 		6473B8EE1FE28EDC0026D9DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6473B8EC1FE28EDC0026D9DE /* Main.storyboard */; };
 		6473B8F01FE28EDC0026D9DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6473B8EF1FE28EDC0026D9DE /* Assets.xcassets */; };
@@ -69,7 +79,6 @@
 		6413E3391FE7954600215F38 /* AGLKVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGLKVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
 		6413E33B1FE7A48600215F38 /* Ch3_1_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ch3_1_ViewController.h; sourceTree = "<group>"; };
 		6413E33C1FE7A48600215F38 /* Ch3_1_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ch3_1_ViewController.m; sourceTree = "<group>"; };
-		6413E33E1FE7B28E00215F38 /* leaves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaves.png; sourceTree = "<group>"; };
 		6413E3411FE7BA5100215F38 /* Ch3_2_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ch3_2_ViewController.h; sourceTree = "<group>"; };
 		6413E3421FE7BA5100215F38 /* Ch3_2_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ch3_2_ViewController.m; sourceTree = "<group>"; };
 		6413E3441FE7BD2E00215F38 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
@@ -85,6 +94,20 @@
 		644D232D1FE3D71900C53861 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		644D23311FE3D74A00C53861 /* AGLKView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGLKView.h; sourceTree = "<group>"; };
 		644D23321FE3D74A00C53861 /* AGLKView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGLKView.m; sourceTree = "<group>"; };
+		646F90591FEA45E50074B4DF /* Ch3_4_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ch3_4_ViewController.h; sourceTree = "<group>"; };
+		646F905A1FEA45E50074B4DF /* Ch3_4_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ch3_4_ViewController.m; sourceTree = "<group>"; };
+		646F905B1FEA45E50074B4DF /* Ch3_4_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Ch3_4_ViewController.xib; sourceTree = "<group>"; };
+		646F90651FEA46CA0074B4DF /* Ch3_5_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ch3_5_ViewController.h; sourceTree = "<group>"; };
+		646F90661FEA46CA0074B4DF /* Ch3_5_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ch3_5_ViewController.m; sourceTree = "<group>"; };
+		646F90671FEA46CA0074B4DF /* Ch3_5_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Ch3_5_ViewController.xib; sourceTree = "<group>"; };
+		646F906A1FEA46DB0074B4DF /* Ch3_6_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ch3_6_ViewController.h; sourceTree = "<group>"; };
+		646F906B1FEA46DB0074B4DF /* Ch3_6_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ch3_6_ViewController.m; sourceTree = "<group>"; };
+		646F906C1FEA46DB0074B4DF /* Ch3_6_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Ch3_6_ViewController.xib; sourceTree = "<group>"; };
+		646F906F1FEA50990074B4DF /* leaves.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = leaves.gif; sourceTree = "<group>"; };
+		646F90701FEA50990074B4DF /* beetle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beetle.png; sourceTree = "<group>"; };
+		646F90731FEA51440074B4DF /* leaves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaves.png; sourceTree = "<group>"; };
+		646F90821FEA71100074B4DF /* Shader.fsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		646F90841FEA71340074B4DF /* Shader.vsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
 		6473B8E31FE28EDC0026D9DE /* LearningOpenGL ES2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LearningOpenGL ES2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6473B8E61FE28EDC0026D9DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6473B8E71FE28EDC0026D9DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -155,8 +178,10 @@
 		6411FC1A1FE8F714000EA494 /* SourceFile */ = {
 			isa = PBXGroup;
 			children = (
+				646F90731FEA51440074B4DF /* leaves.png */,
+				646F90701FEA50990074B4DF /* beetle.png */,
+				646F906F1FEA50990074B4DF /* leaves.gif */,
 				6411FC241FE91393000EA494 /* grid.png */,
-				6413E33E1FE7B28E00215F38 /* leaves.png */,
 				6413E3441FE7BD2E00215F38 /* icon.png */,
 			);
 			path = SourceFile;
@@ -226,6 +251,60 @@
 			path = BaseViewController;
 			sourceTree = "<group>";
 		};
+		646F90571FEA45400074B4DF /* Ch3_4 */ = {
+			isa = PBXGroup;
+			children = (
+				646F90591FEA45E50074B4DF /* Ch3_4_ViewController.h */,
+				646F905A1FEA45E50074B4DF /* Ch3_4_ViewController.m */,
+				646F905B1FEA45E50074B4DF /* Ch3_4_ViewController.xib */,
+			);
+			path = Ch3_4;
+			sourceTree = "<group>";
+		};
+		646F90581FEA454F0074B4DF /* Ch3_5 */ = {
+			isa = PBXGroup;
+			children = (
+				646F90651FEA46CA0074B4DF /* Ch3_5_ViewController.h */,
+				646F90661FEA46CA0074B4DF /* Ch3_5_ViewController.m */,
+				646F90671FEA46CA0074B4DF /* Ch3_5_ViewController.xib */,
+			);
+			path = Ch3_5;
+			sourceTree = "<group>";
+		};
+		646F905E1FEA460A0074B4DF /* Ch3_6 */ = {
+			isa = PBXGroup;
+			children = (
+				646F90811FEA709F0074B4DF /* shaders */,
+				646F906A1FEA46DB0074B4DF /* Ch3_6_ViewController.h */,
+				646F906B1FEA46DB0074B4DF /* Ch3_6_ViewController.m */,
+				646F906C1FEA46DB0074B4DF /* Ch3_6_ViewController.xib */,
+			);
+			path = Ch3_6;
+			sourceTree = "<group>";
+		};
+		646F905F1FEA462F0074B4DF /* Ch4_1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Ch4_1;
+			sourceTree = "<group>";
+		};
+		646F90611FEA46390074B4DF /* Ch4_2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Ch4_2;
+			sourceTree = "<group>";
+		};
+		646F90811FEA709F0074B4DF /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				646F90821FEA71100074B4DF /* Shader.fsh */,
+				646F90841FEA71340074B4DF /* Shader.vsh */,
+			);
+			path = shaders;
+			sourceTree = "<group>";
+		};
 		6473B8DA1FE28EDC0026D9DE = {
 			isa = PBXGroup;
 			children = (
@@ -257,6 +336,11 @@
 				6413E32E1FE77BDF00215F38 /* Ch3_1 */,
 				6413E3401FE7BA2B00215F38 /* Ch3_2 */,
 				6411FC1B1FE90B5F000EA494 /* Ch3_3 */,
+				646F90571FEA45400074B4DF /* Ch3_4 */,
+				646F90581FEA454F0074B4DF /* Ch3_5 */,
+				646F905E1FEA460A0074B4DF /* Ch3_6 */,
+				646F905F1FEA462F0074B4DF /* Ch4_1 */,
+				646F90611FEA46390074B4DF /* Ch4_2 */,
 				6473B8E61FE28EDC0026D9DE /* AppDelegate.h */,
 				6473B8E71FE28EDC0026D9DE /* AppDelegate.m */,
 				6473B9271FE2AA8E0026D9DE /* RootNavigationController.h */,
@@ -397,12 +481,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				646F90691FEA46CA0074B4DF /* Ch3_5_ViewController.xib in Resources */,
+				646F90741FEA51450074B4DF /* leaves.png in Resources */,
+				646F905D1FEA45E50074B4DF /* Ch3_4_ViewController.xib in Resources */,
 				6473B8F31FE28EDC0026D9DE /* LaunchScreen.storyboard in Resources */,
-				6413E33F1FE7B28E00215F38 /* leaves.png in Resources */,
 				6473B8F01FE28EDC0026D9DE /* Assets.xcassets in Resources */,
 				6411FC231FE90D4F000EA494 /* Ch3_3_ViewController.xib in Resources */,
+				646F90831FEA71100074B4DF /* Shader.fsh in Resources */,
+				646F90721FEA50990074B4DF /* beetle.png in Resources */,
+				646F90851FEA71340074B4DF /* Shader.vsh in Resources */,
 				6473B8EE1FE28EDC0026D9DE /* Main.storyboard in Resources */,
+				646F90711FEA50990074B4DF /* leaves.gif in Resources */,
 				6411FC251FE91393000EA494 /* grid.png in Resources */,
+				646F906E1FEA46DB0074B4DF /* Ch3_6_ViewController.xib in Resources */,
 				6413E3451FE7BD2E00215F38 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,8 +524,10 @@
 				6413E3431FE7BA5100215F38 /* Ch3_2_ViewController.m in Sources */,
 				6413E33A1FE7954600215F38 /* AGLKVertexAttribArrayBuffer.m in Sources */,
 				6473B9291FE2AA8E0026D9DE /* RootNavigationController.m in Sources */,
+				646F906D1FEA46DB0074B4DF /* Ch3_6_ViewController.m in Sources */,
 				6473B8E81FE28EDC0026D9DE /* AppDelegate.m in Sources */,
 				6411FC221FE90D4F000EA494 /* Ch3_3_ViewController.m in Sources */,
+				646F90681FEA46CA0074B4DF /* Ch3_5_ViewController.m in Sources */,
 				6413E3311FE77C3400215F38 /* AGLKContext.m in Sources */,
 				644D232E1FE3D71900C53861 /* Ch2_1_ViewController.m in Sources */,
 				6413E33D1FE7A48600215F38 /* Ch3_1_ViewController.m in Sources */,
@@ -443,6 +536,7 @@
 				6413E3481FE7BFA100215F38 /* AGLKTextureInfo.m in Sources */,
 				6411FC281FE91C72000EA494 /* GLKEffectPropertyTexture+AGLKAdditions.m in Sources */,
 				6473B91A1FE292AB0026D9DE /* RootTableViewController.m in Sources */,
+				646F905C1FEA45E50074B4DF /* Ch3_4_ViewController.m in Sources */,
 				644D23331FE3D74A00C53861 /* AGLKView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

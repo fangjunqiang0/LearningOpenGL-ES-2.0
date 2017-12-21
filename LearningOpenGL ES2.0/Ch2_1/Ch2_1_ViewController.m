@@ -12,15 +12,15 @@
 
 typedef struct {
     GLKVector3 positionCoords;//GLKVector3 类型保存了3个坐标X Y Z；
-    
+    int a;
 }SenceVertex;//C结构体
 
 //vertices变量是一个用顶点数据初始化的普通C数组，这个变量用于定义一个三角形
 //OpenGL 可见坐标系X、Y、Z轴范围区间为 [-1,1]
 static const SenceVertex vertices[] = {
-    {-0.5f,-0.5f, 0.0},//左下
-    { 0.5f,-0.5f, 0.0},//右下
-    {-0.5f, 0.5f, 0.0}//左上
+    {{-0.5f,-0.5f, 0.0}},//左下
+    {{ 0.5f,-0.5f, 0.0}},//右下
+    {{-0.5f, 0.5f, 0.0}}//左上
 };
 
 @interface Ch2_1_ViewController ()<GLKViewDelegate>
