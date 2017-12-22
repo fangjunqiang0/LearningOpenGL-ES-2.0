@@ -139,7 +139,7 @@ static const SceneVertex vertices[] =
     glEnable(GL_DEPTH_TEST);
     
     // Set the background color stored in the current context
-    ((AGLKContext *)glkView.context).clearColorRGBA = GLKVector4Make(
+    ((AGLKContext *)glkView.context).clearColor = GLKVector4Make(
                                                               0.65f, // Red
                                                               0.65f, // Green
                                                               0.65f, // Blue
@@ -230,18 +230,18 @@ static const SceneVertex vertices[] =
                                   attribOffset:offsetof(SceneVertex, positionCoords)
                                   shouldEnable:YES];
     
-    NSLog(@"----- positionCoords offsetof %lu----",offsetof(SceneVertex, positionCoords));
+
     
     [self.vertexBuffer prepareToDrawWithAttrib:GLKVertexAttribNormal
                            numberOfCoordinates:3
                                   attribOffset:offsetof(SceneVertex, normalCoords)
                                   shouldEnable:YES];
-    NSLog(@"----- normalCoords offsetof %lu----",offsetof(SceneVertex, normalCoords));
+
     [self.vertexBuffer prepareToDrawWithAttrib:GLKVertexAttribTexCoord0
                            numberOfCoordinates:2
                                   attribOffset:offsetof(SceneVertex, textureCoords)
                                   shouldEnable:YES];
-    NSLog(@"-----textureCoords offsetof %lu----",offsetof(SceneVertex, textureCoords));
+
     [self.vertexBuffer prepareToDrawWithAttrib:GLKVertexAttribTexCoord1
                            numberOfCoordinates:2
                                   attribOffset:offsetof(SceneVertex, textureCoords)

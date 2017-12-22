@@ -9,20 +9,40 @@
 #import "AGLKContext.h"
 
 @implementation AGLKContext
+
+
+/**
+设置帧缓存中的每一个像素的颜色为背景色
+
+ @param mask GLbitfield类型
+ */
 - (void)clear:(GLbitfield)mask {
     NSAssert(self == [[self class]currentContext], @"Receiving context required to be current context");
     glClear(mask);
 }
-- (void)setClearColorRGBA:(GLKVector4)clearColorRGBA {
-    _clearColorRGBA = clearColorRGBA;
+
+/**
+ clearColor属性set方法
+ 这个方法设置清晰的RGBA背景颜色
+
+ @param clearColor GLKVector4类型
+ */
+- (void)setClearColor:(GLKVector4)clearColor {
+    _clearColor = clearColor;
     
     NSAssert(self == [[self class] currentContext], @"Receiving context required to be current context");
     
-    glClearColor(clearColorRGBA.r, clearColorRGBA.g, clearColorRGBA.b, clearColorRGBA.a);
+    glClearColor(clearColor.r, clearColor.g, clearColor.b, clearColor.a);
 }
 
-- (GLKVector4)clearColorRGBA
+
+/**
+ clearColor属性get方法
+
+ @return GLKVector4类型
+ */
+- (GLKVector4)clearColor
 {
-    return _clearColorRGBA;
+    return _clearColor;
 }
 @end

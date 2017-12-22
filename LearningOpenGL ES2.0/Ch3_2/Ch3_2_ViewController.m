@@ -44,7 +44,7 @@ static const ScenceVertex vertices[] = {
     self.baseEffect.useConstantColor = GL_TRUE;
     self.baseEffect.constantColor = GLKVector4Make(1.0f, 1.0f, 1.0f, 1.0f);
     
-    ((AGLKContext *)glkView.context).clearColorRGBA = GLKVector4Make(0.0f, 0.0f, 0.0f, 1.0f);
+    ((AGLKContext *)glkView.context).clearColor = GLKVector4Make(0.0f, 0.0f, 0.0f, 1.0f);
     
     self.vertexBuffer = [[AGLKVertexAttribArrayBuffer alloc]initWithAttribStride:sizeof(ScenceVertex)
                                                                 numberOfVertices:sizeof(vertices)/sizeof(ScenceVertex)

@@ -7,6 +7,7 @@
 //
 
 #import "RootTableViewController.h"
+#import "Ch1_1_ViewController.h"
 #import "Ch2_1_ViewController.h"
 #import "Ch2_2_ViewController.h"
 #import "Ch3_1_ViewController.h"
@@ -30,7 +31,8 @@
     [super viewDidLoad];
     
     self.navigationItem.title = @"OpenGL ES2.0";
-    array = @[@"2_1 绘制三角形",
+    array = @[@"1_1 缓存介绍",
+              @"2_1 绘制三角形",
               @"2_2 GLKView是怎么工作的",
               @"3_1 纹理",
               @"3_2 GLKTextureLoader是怎样工作的",
@@ -77,34 +79,38 @@
     
     switch (indexPath.row) {
         case 0: {
-            bvc = (BaseViewController *)[[Ch2_1_ViewController alloc]init];
+            bvc = [(BaseViewController *)[Ch1_1_ViewController alloc]initWithNibName:@"Ch1_1_ViewController" bundle:nil];
         }
             break;
         case 1: {
-            bvc = (BaseViewController *)[[Ch2_2_ViewController alloc]init];
+            bvc = (BaseViewController *)[[Ch2_1_ViewController alloc]init];
         }
             break;
         case 2: {
-            bvc = (BaseViewController *)[[Ch3_1_ViewController alloc]init];
+            bvc = (BaseViewController *)[[Ch2_2_ViewController alloc]init];
         }
             break;
         case 3: {
-            bvc = (BaseViewController *)[[Ch3_2_ViewController alloc]init];
+            bvc = (BaseViewController *)[[Ch3_1_ViewController alloc]init];
         }
             break;
         case 4: {
-            bvc = (BaseViewController *)[[Ch3_3_ViewController alloc]initWithNibName:@"Ch3_3_ViewController" bundle:nil];
+            bvc = (BaseViewController *)[[Ch3_2_ViewController alloc]init];
         }
             break;
         case 5: {
-            bvc = (BaseViewController *)[[Ch3_4_ViewController alloc]initWithNibName:@"Ch3_4_ViewController" bundle:nil];
+            bvc = (BaseViewController *)[[Ch3_3_ViewController alloc]initWithNibName:@"Ch3_3_ViewController" bundle:nil];
         }
             break;
         case 6: {
-            bvc = (BaseViewController *)[[Ch3_5_ViewController alloc]initWithNibName:@"Ch3_5_ViewController" bundle:nil];
+            bvc = (BaseViewController *)[[Ch3_4_ViewController alloc]initWithNibName:@"Ch3_4_ViewController" bundle:nil];
         }
             break;
         case 7: {
+            bvc = (BaseViewController *)[[Ch3_5_ViewController alloc]initWithNibName:@"Ch3_5_ViewController" bundle:nil];
+        }
+            break;
+        case 8: {
             bvc = (BaseViewController *)[[Ch3_6_ViewController alloc]initWithNibName:@"Ch3_6_ViewController" bundle:nil];
         }
             break;

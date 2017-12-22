@@ -20,6 +20,8 @@
 		6413E3451FE7BD2E00215F38 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6413E3441FE7BD2E00215F38 /* icon.png */; };
 		6413E3481FE7BFA100215F38 /* AGLKTextureInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6413E3471FE7BFA100215F38 /* AGLKTextureInfo.m */; };
 		6413E34B1FE7BFFB00215F38 /* AGLKTextureLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6413E34A1FE7BFFB00215F38 /* AGLKTextureLoader.m */; };
+		6433F3C41FED0D5100056A31 /* Ch1_1_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6433F3C21FED0D5100056A31 /* Ch1_1_ViewController.m */; };
+		6433F3C51FED0D5100056A31 /* Ch1_1_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6433F3C31FED0D5100056A31 /* Ch1_1_ViewController.xib */; };
 		644D232E1FE3D71900C53861 /* Ch2_1_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 644D23261FE3D71900C53861 /* Ch2_1_ViewController.m */; };
 		644D232F1FE3D71900C53861 /* Ch2_2_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 644D232A1FE3D71900C53861 /* Ch2_2_ViewController.m */; };
 		644D23301FE3D71900C53861 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 644D232C1FE3D71900C53861 /* BaseViewController.m */; };
@@ -86,6 +88,9 @@
 		6413E3471FE7BFA100215F38 /* AGLKTextureInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGLKTextureInfo.m; sourceTree = "<group>"; };
 		6413E3491FE7BFFB00215F38 /* AGLKTextureLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGLKTextureLoader.h; sourceTree = "<group>"; };
 		6413E34A1FE7BFFB00215F38 /* AGLKTextureLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGLKTextureLoader.m; sourceTree = "<group>"; };
+		6433F3C11FED0D5100056A31 /* Ch1_1_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ch1_1_ViewController.h; sourceTree = "<group>"; };
+		6433F3C21FED0D5100056A31 /* Ch1_1_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ch1_1_ViewController.m; sourceTree = "<group>"; };
+		6433F3C31FED0D5100056A31 /* Ch1_1_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Ch1_1_ViewController.xib; sourceTree = "<group>"; };
 		644D23261FE3D71900C53861 /* Ch2_1_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ch2_1_ViewController.m; sourceTree = "<group>"; };
 		644D23271FE3D71900C53861 /* Ch2_1_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch2_1_ViewController.h; sourceTree = "<group>"; };
 		644D23291FE3D71900C53861 /* Ch2_2_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ch2_2_ViewController.h; sourceTree = "<group>"; };
@@ -224,6 +229,16 @@
 			path = Ch3_2;
 			sourceTree = "<group>";
 		};
+		6433F3C01FED0D2A00056A31 /* Ch1_1 */ = {
+			isa = PBXGroup;
+			children = (
+				6433F3C11FED0D5100056A31 /* Ch1_1_ViewController.h */,
+				6433F3C21FED0D5100056A31 /* Ch1_1_ViewController.m */,
+				6433F3C31FED0D5100056A31 /* Ch1_1_ViewController.xib */,
+			);
+			path = Ch1_1;
+			sourceTree = "<group>";
+		};
 		644D23251FE3D71900C53861 /* Ch2_1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -329,6 +344,7 @@
 		6473B8E51FE28EDC0026D9DE /* LearningOpenGL ES2.0 */ = {
 			isa = PBXGroup;
 			children = (
+				6433F3C01FED0D2A00056A31 /* Ch1_1 */,
 				6411FC181FE8EAB2000EA494 /* AGLKit */,
 				644D232B1FE3D71900C53861 /* BaseViewController */,
 				644D23251FE3D71900C53861 /* Ch2_1 */,
@@ -492,6 +508,7 @@
 				646F90851FEA71340074B4DF /* Shader.vsh in Resources */,
 				6473B8EE1FE28EDC0026D9DE /* Main.storyboard in Resources */,
 				646F90711FEA50990074B4DF /* leaves.gif in Resources */,
+				6433F3C51FED0D5100056A31 /* Ch1_1_ViewController.xib in Resources */,
 				6411FC251FE91393000EA494 /* grid.png in Resources */,
 				646F906E1FEA46DB0074B4DF /* Ch3_6_ViewController.xib in Resources */,
 				6413E3451FE7BD2E00215F38 /* icon.png in Resources */,
@@ -538,6 +555,7 @@
 				6473B91A1FE292AB0026D9DE /* RootTableViewController.m in Sources */,
 				646F905C1FEA45E50074B4DF /* Ch3_4_ViewController.m in Sources */,
 				644D23331FE3D74A00C53861 /* AGLKView.m in Sources */,
+				6433F3C41FED0D5100056A31 /* Ch1_1_ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
