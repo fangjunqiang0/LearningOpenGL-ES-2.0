@@ -60,7 +60,7 @@ static const ScenceVertex vertices[] = {
                                                                             data:vertices
                                                                            usage:GL_STATIC_DRAW];
     
-    CGImageRef imageRef = [UIImage imageNamed:@"leaves"].CGImage;
+    CGImageRef imageRef = [UIImage imageNamed:@"leaves.gif"].CGImage;
     
     GLKTextureInfo *textureInfo = [GLKTextureLoader textureWithCGImage:imageRef options:nil error:nil];
     
