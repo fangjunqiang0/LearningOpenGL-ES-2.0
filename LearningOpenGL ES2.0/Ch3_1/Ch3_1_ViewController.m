@@ -91,7 +91,7 @@ static const ScenceVertex vertices[] = {
                            numberOfCoordinates:2
                                   attribOffset:offsetof(ScenceVertex, textureCoords)
                                   shouldEnable:YES];
-    
+
     [self.vertexBuffer drawArrayWithMode:GL_TRIANGLES
                         startVertexIndex:0
                         numberOfVertices:3];
