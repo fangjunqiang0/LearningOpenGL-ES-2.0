@@ -36,7 +36,7 @@ static const SceneVertex vertices[] = {
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+
     
     GLKView *glkView = (GLKView *)self.view;
     

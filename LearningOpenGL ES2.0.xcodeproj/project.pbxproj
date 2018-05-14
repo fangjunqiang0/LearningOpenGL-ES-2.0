@@ -257,15 +257,6 @@
 			path = Ch2_2;
 			sourceTree = "<group>";
 		};
-		644D232B1FE3D71900C53861 /* BaseViewController */ = {
-			isa = PBXGroup;
-			children = (
-				644D232D1FE3D71900C53861 /* BaseViewController.h */,
-				644D232C1FE3D71900C53861 /* BaseViewController.m */,
-			);
-			path = BaseViewController;
-			sourceTree = "<group>";
-		};
 		646F90571FEA45400074B4DF /* Ch3_4 */ = {
 			isa = PBXGroup;
 			children = (
@@ -344,9 +335,8 @@
 		6473B8E51FE28EDC0026D9DE /* LearningOpenGL ES2.0 */ = {
 			isa = PBXGroup;
 			children = (
-				6433F3C01FED0D2A00056A31 /* Ch1_1 */,
 				6411FC181FE8EAB2000EA494 /* AGLKit */,
-				644D232B1FE3D71900C53861 /* BaseViewController */,
+				6433F3C01FED0D2A00056A31 /* Ch1_1 */,
 				644D23251FE3D71900C53861 /* Ch2_1 */,
 				644D23281FE3D71900C53861 /* Ch2_2 */,
 				6413E32E1FE77BDF00215F38 /* Ch3_1 */,
@@ -363,6 +353,8 @@
 				6473B9281FE2AA8E0026D9DE /* RootNavigationController.m */,
 				6473B9181FE292AB0026D9DE /* RootTableViewController.h */,
 				6473B9191FE292AB0026D9DE /* RootTableViewController.m */,
+				644D232D1FE3D71900C53861 /* BaseViewController.h */,
+				644D232C1FE3D71900C53861 /* BaseViewController.m */,
 				6411FC1A1FE8F714000EA494 /* SourceFile */,
 				6473B8EC1FE28EDC0026D9DE /* Main.storyboard */,
 				6473B8EF1FE28EDC0026D9DE /* Assets.xcassets */,

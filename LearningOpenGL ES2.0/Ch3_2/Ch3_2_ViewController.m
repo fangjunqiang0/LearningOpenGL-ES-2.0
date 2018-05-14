@@ -54,7 +54,7 @@ static const ScenceVertex vertices[] = {
     CGImageRef imageRef = [UIImage imageNamed:@"leaves"].CGImage;
     
     
-//    此处相对于Ch3_1例子 使用了自定义的 AGLKTextureInfo、AGLKTextureLoader两个类
+    // 此处相对于Ch3_1例子 使用了自定义的 AGLKTextureInfo、AGLKTextureLoader两个类
     AGLKTextureInfo *textInfo = [AGLKTextureLoader textureWithCGImage:imageRef
                                                               options:nil
                                                                 error:nil];
